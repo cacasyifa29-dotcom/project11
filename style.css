@@ -1,0 +1,92 @@
+/* ======================
+   STYLE HALAMAN UMUM
+====================== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* ======================
+   FORM INPUT
+====================== */
+form {
+    background: white;
+    padding: 20px;
+    width: 550px;
+    box-shadow: 0 0 10px #999;
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio & checkbox lebih jelas */
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 7px;
+}
+
+/* Tombol simpan */
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* ======================
+   TABEL TAMPIL DATA
+====================== */
+table {
+    background: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 0 0 10px #bbb;
+}
+
+th {
+    background: #333;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
